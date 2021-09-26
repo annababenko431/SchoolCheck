@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Введіть прізвище:</h3><br>
+    <input id="surname" type="text" placeholder="Name">
+    <input id="but" type="button" value="Найти">
+    <script type="text/javascript">
+    let classes =[
+        'Ivanov', {class: '1 class'},
+        'Petrov', {class: '2 class'},
+        'Sidorov', {class: '3 class'}
+    ];
+    but. onclick = function(){
+        let surname=document. getElementById('surname'). value;
+        for (let i = 0; i <= classes.length; i++){
+            if(classes[i]== surname){
+                alert(classes[i] + " in " + classes[i+1]. class);
+                break;
+            } else {
+                alert("I havent found this surname!"); break;}
+ }
+ }
+</script>
+</body>
+</html> 
